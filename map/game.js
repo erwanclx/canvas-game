@@ -48,25 +48,25 @@ collisionsMap.forEach((row, i) => {
 })
 
 const image = new Image()
-image.src = 'map/game.png' // Image de la map
+image.src = 'game.png' // Image de la map
 
 const foregroundImage = new Image()
-foregroundImage.src = 'map/foreground.png' // Objet passable au travers
+foregroundImage.src = 'foreground.png' // Objet passable au travers
 
 const playerDownImage = new Image()
-playerDownImage.src = 'map/down.png';  // Sprites ok 
+playerDownImage.src = 'down.png';  // Sprites ok 
 
 const playerUpImage = new Image()
-playerUpImage.src = 'map/up.png'; // Sprites à corriger
+playerUpImage.src = 'up.png'; // Sprites à corriger
 
 const playerLeftImage = new Image()
-playerLeftImage.src = 'map/left.png'; // Sprites à corriger
+playerLeftImage.src = 'left.png'; // Sprites à corriger
 
 const playerRightImage = new Image()
-playerRightImage.src = 'map/right.png'; // Sprites à corriger
+playerRightImage.src = 'right.png'; // Sprites à corriger
 
 const shadowImage = new Image()
-shadowImage.src = 'map/shadow.png' // Ombre sous sprites
+shadowImage.src = 'shadow.png' // Ombre sous sprites
 
 class Sprite {
     constructor({
