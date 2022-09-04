@@ -54,7 +54,7 @@ const foregroundImage = new Image()
 foregroundImage.src = 'foreground.png' // Objet passable au travers
 
 const playerDownImage = new Image()
-playerDownImage.src = 'down.png';  // Sprites ok 
+playerDownImage.src = '../map/down.png';  // Sprites ok 
 
 const playerUpImage = new Image()
 playerUpImage.src = 'up.png'; // Sprites à corriger
